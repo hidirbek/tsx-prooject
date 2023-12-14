@@ -22,7 +22,8 @@
 .register-div{
   background-color: #F5FFFF;
   font-family: 'Roboto', sans-serif;
-  padding: 50px 0;
+  padding: 70px 0;
+  height: 100vh;
 }
 
 .register-form{
@@ -67,7 +68,7 @@
 }
 .email_reg-div p{
   font-size: 14px;
-  margin: 8px 0;
+  margin: 10px 0;
 }
 
 .confirm-div{

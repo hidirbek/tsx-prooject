@@ -21,7 +21,7 @@ const Register = () => {
     <div className="register-div centering">
       <form className="register-form centerin g">
         <div className="btn-wrapper">
-          <button className="btn">
+          <button className="btn"  >
             <span className="centering">
               <MdOutlineFacebook className="s-m-icons fb-icon" />
               <span>Продолжить через Facebook</span>
