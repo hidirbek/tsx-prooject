@@ -1,0 +1,114 @@
+.centering{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn{
+  width: 100%;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 5px;
+  border: 3px solid black
+}
+.inp{
+  width: 100%;
+  background-color: #F2F4F5;
+  border: none;
+  padding: 14px 16px;
+  outline: none;
+}
+
+.register-div{
+  background-color: #F5FFFF;
+  font-family: 'Roboto', sans-serif;
+  padding: 50px 0;
+}
+
+.register-form{
+  padding: 20px 32px;
+  width: 432px;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.btn-wrapper button{
+  margin: 7px 0;
+}
+.btn span span{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+
+
+.or-div{
+  display: flex;
+  align-items: center;
+}
+.or-div hr{
+  width: 150px;
+  height: 1px;
+}
+.or-div b {
+  margin: 0 15px;
+}
+.s-m-icons{
+  font-size: 20px;
+  margin-right: 5px;
+}
+.fb-icon{
+  color: blue;
+}
+
+.inp + .inp{
+  margin-top: 10px;
+}
+.email_reg-div p{
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.confirm-div{
+  display: flex;
+}
+.confirm-div input{
+  width: 24px;
+}
+.confirm-div p{
+  font-size: 12px;
+  margin-left: 16px;
+}
+.reg-div{
+  width: 100%;
+}
+
+.login-btn{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #7F9799;
+  color: #406367;
+  font-size: 16px;
+  width: 50%;
+  padding-bottom: 8px;
+
+  /* #002F34 */
+  /* 2px solid #002F34 */
+}
+.active{
+  background-color: transparent;
+  border: none;
+  color: #002F34;
+  border-bottom: 2px solid #002F34;
+  font-size: 16px;
+  width: 50%;
+  padding-bottom: 8px;
+  font-weight: 700;
+
+}
+.link{
+  font-size: 14px;
+  font-weight: 700;
+  color: #002F34;
+}
