@@ -5,9 +5,15 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@1,100;1,400;1,500&family=Inter&family=Jacques+Francois&family=Road+Rage&family=Roboto:wght@400;700&family=Rubik:wght@400;600;700&display=swap');
 
+.container{
+  max-width: 1700px;
+  margin: auto;
+  padding: auto;
+}
+
 /* font-family: 'Glory', sans-serif;
 font-family: 'Inter', sans-serif;
 font-family: 'Jacques Francois', serif;
-font-family: 'Road Rage', sans-serif;
+
 font-family: 'Roboto', sans-serif;
 font-family: 'Rubik', sans-serif; */
