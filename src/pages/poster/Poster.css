@@ -1,0 +1,45 @@
+
+.poster_wrapper{
+  background: #F5FCFC;
+}
+.poster_title{
+  color: #0C7F8E;
+  font-family: Rubik;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 45px */
+  background: #FFF;
+  padding: 28px 0 28px 55px;
+}
+
+.poster_announce-title{
+
+}
+.poster_photo-wrapper{
+  margin-top: 20px;
+  background: #FFF;
+  padding: 25px 30px;
+}
+.poster_photo-wrapper> .poster_title{
+  padding: 0  ;
+}
+.poster_subtitle{
+  color: #0C7F8E;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin: 20px 0 36px 0;
+}
+
+
+.add_photo-wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  column-gap: 20px ;
+  row-gap: 50px;
+}
+.add_photo-wrapper > img{
+  border-radius: 8px;
+}
