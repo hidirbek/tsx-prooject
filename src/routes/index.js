@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Register from "../pages/register/Register";
 import Home from "../pages/home/Home";
+import Pdp from "../pages/pdp/Pdp";
 
 const index = () => {
   return (
@@ -12,6 +13,9 @@ const index = () => {
         </Route>
         <Route exact path="/register">
           <Register />
+        </Route>
+        <Route exact path="/about_product">
+          <Pdp />
         </Route>
       </Switch>
     </div>

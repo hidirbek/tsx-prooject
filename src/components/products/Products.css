@@ -12,7 +12,7 @@
 
 .categories-products{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: #CDF7FD8C;
   padding: 50px 20px;
 }
@@ -28,7 +28,7 @@
 .product_cards{
   display: grid;
   grid-template-columns: repeat(3, 230px);
-  grid-gap: 40px;
+  grid-gap: 30px;
 }
 .product_card{
   padding: 20px 15px;
