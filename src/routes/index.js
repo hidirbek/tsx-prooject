@@ -4,6 +4,7 @@ import Register from "../pages/register/Register";
 import Home from "../pages/home/Home";
 import Pdp from "../pages/pdp/Pdp";
 import Poster from "../pages/poster/Poster";
+import ChoosingCategory from "../pages/choosingCategory/ChoosingCategory";
 
 const index = () => {
   return (
@@ -20,6 +21,9 @@ const index = () => {
         </Route>
         <Route exact path="/post_products">
           <Poster />
+        </Route>
+        <Route exact path="/choose_category">
+          <ChoosingCategory />
         </Route>
       </Switch>
     </div>
